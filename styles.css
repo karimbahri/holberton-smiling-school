@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-image: url("images/pic_1.jpg");
+    height: 190vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+.links {
+    font-weight: bold;
+}
+.links a:hover {
+    color: #8058A7 !important;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-weight: bold;
+    font-size: 90px;
+}
+.list-inline-item {
+    font-weight: bold;
+}
+.btn {
+    background-color: #C271FF;
+    color: white;
+}
+.btn:active, .btn:hover{
+    opacity: 0.9;
+    color: white;
+}
+.highlight {
+    color: #c3baca;
+}
+.header_paragraph {
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+.profiles {
+    transform: translateY(170%);
+}
+.navbar-toggler-icon {
+   color: white;
+   font-size: 35px;
+}
+.quotes-section {
+    background-color: #C271FF;
+    height: 60vh;
+}
+.quotes-section p {
+    color: white;
+    font-size: 20px;
+}
+.quotes-section .name {
+    font-weight: bold;
+}
+.quotes-section .lt {
+    font-size: 10px;
+}
+.popular_section {
+    height: 130vh;
+}
+.purple {
+    color: #C271FF;
+}
+.prev {
+    transform: translateX(-70%);
+}
+.next {
+    transform: translateX(70%);
+}
+
+.membership-section {
+    height: 110vh;
+    background-color: #071629;
+    background-size: cover;
+}
+.membership-section h2 {
+    color: white;
+    padding-top: 100px !important;
+}
+footer {
+    background-color: #071629;
+    height: 60vh;
+}
