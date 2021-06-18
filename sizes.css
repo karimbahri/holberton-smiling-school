@@ -34,4 +34,7 @@
         height: 190vh;
         background-color: #071629;
     }
+    .icons {
+        transform: translateY(30px);
+    }
 }
