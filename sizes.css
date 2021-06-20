@@ -28,13 +28,20 @@
         height: 160vh;
         background-color: #071629;
     }
+    .faq_section {
+        height: 180vh;
+    }
 }
 @media (max-width: 600px) {
     .membership-section {
         height: 190vh;
         background-color: #071629;
     }
+
     .icons {
         transform: translateY(30px);
+    }
+    .faq_section {
+        height: 240vh;
     }
 }

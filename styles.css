@@ -100,3 +100,48 @@ footer {
 footer p {
     transform: translateY(50px);
 }
+
+/*===== PRICING */
+
+.header-pricing {
+    background-image: url("images/pic_2.jpg");
+    height: 190vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+.header-pricing h3 {
+    font-weight: bold;
+}
+
+.faq_section {
+    height: 120vh;
+}
+.faq_section .title {
+    color: #071629;
+}
+
+/*===== COURSES */
+
+.header-courses {
+    background-image: url("images/pic_3.jpg");
+    height: 130vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+.header-courses p {
+    font-family: Coiny;
+}
